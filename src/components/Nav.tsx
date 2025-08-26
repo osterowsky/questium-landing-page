@@ -1,7 +1,6 @@
-import React from 'react';
 import './Nav.css';
 
-const Nav: React.FC = () => {
+export default function Nav() {
   return (
     <nav className="nav">
       <div className="nav-container">
@@ -16,5 +15,3 @@ const Nav: React.FC = () => {
     </nav>
   );
 };
-
-export default Nav;
