@@ -1,10 +1,8 @@
 .hero {
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 40px; /* Account for fixed nav */
-  padding-bottom: 2rem;
+  padding: 6rem 0 2rem 0;
 }
 
 .hero-container {

@@ -4,7 +4,6 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  padding: 2rem;
   background: rgba(255, 255, 255, 0.10);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
