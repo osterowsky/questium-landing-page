@@ -1,0 +1,65 @@
+.terms-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.terms-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #401268;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.terms-content {
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.terms-section {
+  margin-bottom: 2.5rem;
+}
+
+.terms-section:last-child {
+  margin-bottom: 0;
+}
+
+.terms-section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #401268;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgba(64, 18, 104, 0.2);
+  padding-bottom: 0.5rem;
+}
+
+.terms-section p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #401268;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.terms-section p:last-child {
+  margin-bottom: 0;
+}
+
+.terms-link {
+  color: #401268;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.terms-link:hover {
+  opacity: 0.7;
+}

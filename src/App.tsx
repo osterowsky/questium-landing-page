@@ -1,20 +1,19 @@
-import './App.css'
-import Nav from './components/Nav'
-import Hero from './components/Hero'
-import FAQ from './components/FAQ'
-import About from './components/About'
-import Footer from './components/Footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
+import HomePage from './components/HomePage';
+import TermsOfService from './components/TermsOfService';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 function App() {
   return (
-    <>
-      <Nav />
-      <Hero />
-      <FAQ />
-      <About />
-      <Footer />
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/terms" element={<TermsOfService />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

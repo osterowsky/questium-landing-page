@@ -5,11 +5,11 @@ export default function Nav() {
     <nav className="nav">
       <div className="nav-container">
         <div className="nav-logo">
-          <h2><a href="#">questium</a></h2>
+          <h2><a href="/">questium</a></h2>
         </div>
         <div className="nav-links">
-          <button className="nav-button"><a href="#FAQ">FAQ</a></button>
-          <button className="nav-button"><a href="#About">About</a></button>
+          <button className="nav-button"><a href="/">FAQ</a></button>
+          <button className="nav-button"><a href="/">About</a></button>
         </div>
       </div>
     </nav>
