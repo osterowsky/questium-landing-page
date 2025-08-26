@@ -15,8 +15,8 @@ export default function TermsOfService() {
               <h2>1. Operator Information</h2>
               <p>
                 This website ("Questium", "we", "our") is operated by:<br />
-                Questium<br />
-                Patryk Ostern<br />
+                Company name: Questium<br />
+                Legal representative: Patryk Ostern<br />
                 Email: patryk.ostern@questium.de
               </p>
             </section>
@@ -75,7 +75,7 @@ export default function TermsOfService() {
             <section className="terms-section">
               <h2>8. Governing Law & Jurisdiction</h2>
               <p>
-                These Terms of Service are governed by the laws of the Federal Republic of Germany. Any disputes shall be subject to the exclusive jurisdiction of the courts in [Your City, Germany].
+                These Terms of Service are governed by the laws of the Federal Republic of Germany. Any disputes shall be subject to the exclusive jurisdiction of the courts in Munich, Germany.
               </p>
             </section>
           </div>

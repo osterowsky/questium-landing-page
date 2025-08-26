@@ -15,8 +15,8 @@ export default function PrivacyPolicy() {
               <h2>1. Data Controller</h2>
               <p>
               The operator of this website and responsible entity under the GDPR is:<br />
-                Questium<br />
-                Patryk Ostern<br />
+                Company name: Questium<br />
+                Legal representative: Patryk Ostern<br />
                 Email: patryk.ostern@questium.de
               </p>
             </section>
@@ -81,7 +81,6 @@ export default function PrivacyPolicy() {
                 <li>Withdraw your consent at any time (Art. 7(3) GDPR)</li>
                 <li>Lodge a complaint with a supervisory authority (Art. 77 GDPR).</li>
               </ul>
-              <p>In Germany, the competent authority is usually the Landesdatenschutzbeauftragte of your federal state.</p>
             </section>
 
             <section className="privacy-section">
