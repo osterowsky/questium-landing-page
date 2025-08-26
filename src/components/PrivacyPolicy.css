@@ -1,3 +1,7 @@
+.privacy-page {
+  padding: 6rem 0 2rem 0;
+}
+
 .privacy-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -51,6 +55,20 @@
   
 .privacy-section p:last-child {
     margin-bottom: 0;
+  }
+
+.privacy-section ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+  }
+  
+.privacy-section li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #401268;
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
   }
   
 .privacy-link {
