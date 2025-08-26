@@ -1,0 +1,62 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px; /* Account for fixed nav */
+  padding-bottom: 2rem;
+}
+
+.hero-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-title {
+  margin-bottom: 2rem;
+  line-height: 1.1;
+}
+
+.hero-title-purple {
+  color: #401268;
+}
+
+.hero-title-black {
+  color: #000000;
+}
+
+.hero-description {
+  max-width: 800px;
+  margin: 0 auto 4rem auto;
+  line-height: 1.6;
+}
+
+.hero-waitlist {
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(20px);
+  border-radius: 45px;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 0.8;
+}
+
+.waitlist-title {
+  color: #401268;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.waitlist-subtitle {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}

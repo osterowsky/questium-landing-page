@@ -5,7 +5,7 @@ export default function Nav() {
     <nav className="nav">
       <div className="nav-container">
         <div className="nav-logo">
-          <h3><a href="#">questium</a></h3>
+          <h2><a href="#">questium</a></h2>
         </div>
         <div className="nav-links">
           <button className="nav-button"><a href="#FAQ">FAQ</a></button>
