@@ -3,7 +3,7 @@ import patryk from '../assets/patryk.JPG';
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" id="About">
       <div className="about-container">
         <h1 className="about-title">About</h1>
         

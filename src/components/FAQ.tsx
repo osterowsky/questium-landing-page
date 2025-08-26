@@ -76,7 +76,7 @@ export default function FAQ() {
   };
 
   return (
-    <section className="faq">
+    <section className="faq" id="FAQ">
       <div className="faq-container">
         <h1 className="faq-title">FAQ</h1>
         
