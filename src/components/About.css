@@ -47,7 +47,7 @@
   font-weight: 600;
 }
 
-/* Tablet styles (768px - 1023px) */
+/* Tablet styles (767px - 1023px) */
 @media (max-width: 1023px) {
   .about-content {
     gap: 2rem;

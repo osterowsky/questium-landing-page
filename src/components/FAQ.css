@@ -99,8 +99,8 @@
   margin: 0;
 }
 
-/* Tablet Styles (max-width: 1024px) */
-@media (max-width: 1024px) {
+/* Tablet Styles (max-width: 1023px) */
+@media (max-width: 1023px) {
   .faq {
     padding: 3rem 0;
   }
@@ -118,8 +118,8 @@
   }
 }
 
-/* Mobile Styles (max-width: 768px) */
-@media (max-width: 768px) {
+/* Mobile Styles (max-width: 767px) */
+@media (max-width: 767px) {
   .faq {
     padding: 2rem 0;
   }

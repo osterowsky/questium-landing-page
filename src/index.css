@@ -80,8 +80,8 @@ img {
   display: block;
 }
 
-/* Tablet Breakpoint (max-width: 1024px) */
-@media screen and (max-width: 1024px) {
+/* Tablet Breakpoint (max-width: 1023px) */
+@media screen and (max-width: 1023px) {
   html {
     font-size: 15px;
   }
@@ -107,8 +107,8 @@ img {
   }
 }
 
-/* Mobile Breakpoint (max-width: 768px) */
-@media screen and (max-width: 768px) {
+/* Mobile Breakpoint (max-width: 767px) */
+@media screen and (max-width: 767px) {
   html {
     font-size: 14px;
   }
@@ -168,7 +168,7 @@ img {
 }
 
 /* Responsive Utility Classes */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hidden-mobile {
     display: none;
   }

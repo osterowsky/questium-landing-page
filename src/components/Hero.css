@@ -57,7 +57,7 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
-/* Tablet Styles (768px - 1023px) */
+/* Tablet Styles (767px - 1023px) */
 @media (max-width: 1023px) {
   .hero-container {
     max-width: 90%;
