@@ -51,10 +51,52 @@
 .waitlist-title {
   color: #401268;
   font-weight: 700;
-  font-size: 20px;
 }
 
 .waitlist-subtitle {
-  font-size: 20px;
   color: rgba(0, 0, 0, 0.7);
+}
+
+/* Tablet Styles (768px - 1023px) */
+@media (max-width: 1023px) {
+  .hero-container {
+    max-width: 90%;
+    padding: 0 1.5rem;
+  }
+
+  .hero-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-description {
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+  }
+
+  .hero-waitlist {
+    padding: 1.2rem 1.8rem;
+  }
+}
+
+/* Mobile Styles (up to 767px) */
+@media (max-width: 767px) {
+  .hero-container {
+    width: 100%;
+    padding: 0 1.25rem;
+  }
+
+  .hero-description {
+    margin-bottom: 2.5rem;
+    text-align: left;
+    padding: 0;
+  }
+
+  .hero-waitlist {
+    padding: 1rem 1.25rem;
+    border-radius: 25px;
+  }
+
+  .waitlist-title {
+    margin-bottom: 0.25rem;
+  }
 }
