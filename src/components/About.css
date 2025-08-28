@@ -40,10 +40,46 @@
   line-height: 1.6;
   margin: 0;
   text-align: justify;
-  font-size: 20px;
 }
 
 .about-text strong {
   color: #401268;
   font-weight: 600;
+}
+
+/* Tablet styles (768px - 1023px) */
+@media (max-width: 1023px) {
+  .about-content {
+    gap: 2rem;
+  }
+  
+  .about-image img {
+    width: 300px;
+    height: 350px;
+  }
+}
+
+/* Mobile styles (max-width: 767px) */
+@media (max-width: 767px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .about-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .about-text p {
+    text-align: left;
+  }
 }
