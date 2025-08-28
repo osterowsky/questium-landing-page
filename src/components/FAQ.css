@@ -17,6 +17,7 @@
   text-align: center;
   margin-bottom: 3rem;
   color: #000000;
+  font-weight: 700;
 }
 
 .faq-list {
@@ -58,7 +59,6 @@
 }
 
 .faq-icon {
-  font-size: 1.5rem;
   flex-shrink: 0;
   color: #401268;
   display: flex;
@@ -74,9 +74,9 @@
 .faq-question-text {
   flex: 1;
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
   font-weight: 500;
   color: #000000;
+  font-size: 1.25rem;
 }
 
 .faq-chevron {
@@ -94,10 +94,52 @@
 }
 
 .faq-answer p {
-  font-size: 16px;
   line-height: 1.6;
   color: rgba(0, 0, 0, 0.8);
   margin: 0;
+}
+
+/* Tablet Styles (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .faq {
+    padding: 3rem 0;
+  }
+  
+  .faq-container {
+    padding: 0 1.5rem;
+  }
+  
+  .faq-title {
+    margin-bottom: 2rem;
+  }
+
+  .faq-question-text {
+    font-size: 1.125rem;
+  }
+}
+
+/* Mobile Styles (max-width: 768px) */
+@media (max-width: 768px) {
+  .faq {
+    padding: 2rem 0;
+  }
+  
+  .faq-container {
+    padding: 0 1.25rem;
+  }
+  
+  .faq-title {
+    margin-bottom: 1.5rem;
+  }
+  
+  .faq-list {
+    gap: 0.75rem;
+  }
+
+  .faq-question-text {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
 }
 
 @keyframes slideDown {
