@@ -1,3 +1,8 @@
+.waitlist-form {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .waitlist-input-container {
   position: relative;
   display: flex;
@@ -8,6 +13,7 @@
   padding: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
+  margin: 0 auto;
 }
 
 .waitlist-input-container:focus-within {
@@ -21,9 +27,10 @@
   outline: none;
   padding: 1rem 1.5rem;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   background: transparent;
   color: #333;
+  border-radius: 50px;
 }
 
 .waitlist-input::placeholder {
@@ -43,6 +50,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
   color: white;
+  flex-shrink: 0;
 }
 
 .waitlist-submit:hover {
@@ -58,4 +66,52 @@
 .waitlist-submit svg {
   width: 20px;
   height: 20px;
+  stroke-width: 2.5;
+}
+
+/* Tablet Styles (max-width: 1023px) */
+@media (max-width: 1023px) {
+  .waitlist-input {
+    padding: 0.9rem 1.25rem;
+    font-size: 0.95rem;
+    border-radius: 40px;
+  }
+
+  .waitlist-submit {
+    width: 40px;
+    height: 40px;
+  }
+
+  .waitlist-submit svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/* Mobile Styles (max-width: 767px) */
+@media (max-width: 767px) {
+  .waitlist-form {
+    max-width: 100%;
+  }
+
+  .waitlist-input-container {
+    max-width: 100%;
+    padding: 3px;
+  }
+
+  .waitlist-input {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 30px;
+  }
+
+  .waitlist-submit {
+    width: 36px;
+    height: 36px;
+  }
+
+  .waitlist-submit svg {
+    width: 16px;
+    height: 16px;
+  }
 }
