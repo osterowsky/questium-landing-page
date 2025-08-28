@@ -2,44 +2,176 @@
   font-family: 'Montserrat', system-ui, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background: linear-gradient(90deg, #FCF1FF 0%, #FFF9F2 59%, #FFFFFF 97%);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
 }
 
+/* Base Typography - Laptop First */
 h1 {
-  font-size: 64px;
-  font-family: 'Futura';
+  font-size: 4rem;
+  font-family: 'Futura', sans-serif;
   font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
 }
 
 h2 {
-  font-size: 48px;
-  font-family: 'Futura';
+  font-size: 3rem;
+  font-family: 'Futura', sans-serif;
   font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 0.5em;
 }
 
 h3 {
-  font-size: 32px;
-  font-family: 'Futura';
+  font-size: 2rem;
+  font-family: 'Futura', sans-serif;
   font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.5em;
 }
 
 p {
-  font-family: 'Montserrat';
-  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.87);
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+/* Container for responsive layout */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tablet Breakpoint (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+  
+  h1 {
+    font-size: 3.25rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  p {
+    font-size: 1.125rem;
+  }
+  
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+/* Mobile Breakpoint (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+/* Small Mobile Breakpoint (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+  
+  p {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.hidden-mobile {
+  display: block;
+}
+
+.hidden-desktop {
+  display: none;
+}
+
+/* Responsive Utility Classes */
+@media (max-width: 768px) {
+  .hidden-mobile {
+    display: none;
+  }
+  
+  .hidden-desktop {
+    display: block;
+  }
 }
