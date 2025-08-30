@@ -12,7 +12,7 @@ const faqData: FAQItem[] = [
   {
     id: 1,
     question: "Do I have to pay for it?",
-    answer: "No, Questium is completely free for students. We believe that access to opportunities should not be limited by financial barriers.",
+    answer: "No, Questium is completely free. We believe that access to opportunities should not be limited by financial barriers.",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
         <line x1="12" y1="1" x2="12" y2="23"/>
