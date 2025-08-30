@@ -7,6 +7,7 @@
 
 .hero-container {
   max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -29,7 +30,6 @@
 }
 
 .hero-description {
-  max-width: 800px;
   margin: 0 auto 4rem auto;
   line-height: 1.6;
   text-align: justify;
@@ -60,7 +60,6 @@
 /* Tablet Styles (767px - 1023px) */
 @media (max-width: 1023px) {
   .hero-container {
-    max-width: 90%;
     padding: 0 1.5rem;
   }
 
@@ -81,7 +80,6 @@
 /* Mobile Styles (up to 767px) */
 @media (max-width: 767px) {
   .hero-container {
-    width: 100%;
     padding: 0 1.25rem;
   }
 
