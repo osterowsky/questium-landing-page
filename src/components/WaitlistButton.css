@@ -69,6 +69,62 @@
   stroke-width: 2.5;
 }
 
+.waitlist-popup-error {
+  position: absolute;
+  bottom: -2.2rem; /* place under input */
+  left: 1rem;
+  background: #ff1f1f;
+  opacity: 75%;
+  color: #fff;
+  font-size: 0.85rem;
+  padding: 1rem 1rem;
+  border-radius: 30px;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  animation: fadeIn 0.2s ease;
+  z-index: 10;
+}
+
+.waitlist-popup-error::after {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 12px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent #ff1f1f transparent;
+}
+
+.waitlist-popup-success {
+  position: absolute;
+  bottom: -2.2rem;
+  left: 1rem;
+  background: #4caf50;
+  opacity: 75%;
+  color: #fff;
+  font-size: 0.85rem;
+  padding: 1rem 1rem;
+  border-radius: 30px;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  animation: fadeIn 0.2s ease;
+}
+
+.waitlist-popup-success::after {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 12px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent #4caf50 transparent;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* Tablet Styles (max-width: 1023px) */
 @media (max-width: 1023px) {
   .waitlist-input {
