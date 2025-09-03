@@ -1,11 +1,30 @@
 import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 import './Nav.css';
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
+
+  const navigate = useNavigate();
+
+  const goToSection = (id: string) => {
+    const isHome = window.location.hash === "#/" || window.location.hash === "";
+  
+    if (!isHome) {
+      // navigate back home, then wait for component to render
+      navigate("/"); // HashRouter will make this "#/"
+      setTimeout(() => {
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    } else {
+      // already on homepage
+      document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsMenuOpen(false);
+  };
 
   // Close menu when clicking outside
   useEffect(() => {
@@ -49,13 +68,13 @@ export default function Nav() {
         <div className="nav-links desktop-nav">
           <button
             className="nav-button"
-            onClick={() => document.getElementById("FAQ")?.scrollIntoView({ behavior: "smooth" })}
+            onClick={() => goToSection("FAQ")}
           >
             FAQ
           </button>
           <button
             className="nav-button"
-            onClick={() => document.getElementById("About")?.scrollIntoView({ behavior: "smooth" })}
+            onClick={() => goToSection("About")}
           >
             About
           </button>
