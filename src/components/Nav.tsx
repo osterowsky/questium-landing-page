@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 export default function Nav() {
@@ -41,13 +42,23 @@ export default function Nav() {
     <nav className="nav">
       <div className="nav-container">
         <div className="nav-logo">
-          <h2><a href="/" onClick={closeMenu}>questium</a></h2>
+          <h2><Link to="/" onClick={closeMenu}>questium</Link></h2>
         </div>
         
         {/* Desktop Navigation */}
         <div className="nav-links desktop-nav">
-          <button className="nav-button"><a href="/#FAQ" onClick={closeMenu}>FAQ</a></button>
-          <button className="nav-button"><a href="/#About" onClick={closeMenu}>About</a></button>
+          <button
+            className="nav-button"
+            onClick={() => document.getElementById("FAQ")?.scrollIntoView({ behavior: "smooth" })}
+          >
+            FAQ
+          </button>
+          <button
+            className="nav-button"
+            onClick={() => document.getElementById("About")?.scrollIntoView({ behavior: "smooth" })}
+          >
+            About
+          </button>
         </div>
 
         {/* Mobile Menu Button */}
