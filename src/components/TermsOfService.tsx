@@ -44,7 +44,7 @@ export default function TermsOfService() {
                 When you provide your email address, we collect and store it solely for the purpose of maintaining our waiting list and sending relevant updates.
               </p>
               <p>
-                Further details can be found in our <a href="/privacy" className="terms-link">Privacy Policy</a>.
+                Further details can be found in our <a href="/#privacy" className="terms-link">Privacy Policy</a>.
               </p>
             </section>
 
