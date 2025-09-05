@@ -95,8 +95,8 @@ export default function Nav() {
       {/* Mobile Navigation */}
       <div ref={menuRef} className={`mobile-nav ${isMenuOpen ? 'open' : ''}`}>
         <div className="mobile-nav-content">
-          <a href="/#FAQ" onClick={closeMenu}>FAQ</a>
-          <a href="/#About" onClick={closeMenu}>About</a>
+          <p onClick={() => goToSection("FAQ")}>FAQ</p>
+          <p onClick={() => goToSection("About")}>About</p>
         </div>
       </div>
     </nav>

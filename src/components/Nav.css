@@ -119,15 +119,16 @@
   gap: 2rem;
 }
 
-.mobile-nav-content a {
+.mobile-nav-content p {
   color: #ffffff;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 500;
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
-.mobile-nav-content a:hover {
+.mobile-nav-content p:hover {
   color: #e8e8e8;
 }
 
