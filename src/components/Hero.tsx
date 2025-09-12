@@ -13,7 +13,7 @@ export default function Hero() {
           </h1>
           
           <p className="hero-description">
-            Questium enables students in Germany and the European Union (EU) like you to 
+            Questium enables students in the European Union (EU) like you to 
             never miss out on upcoming opportunities that exactly match your major, interests 
             and location. Executive exchanges to New York, hackathons at Google's office, or a 
             €1,000 scholarship. Do you want to miss out on opportunities like these?

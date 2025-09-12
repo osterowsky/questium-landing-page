@@ -20,7 +20,7 @@ export default function About() {
               This is <strong>not just</strong> my story. Surveys in education access show that one of <strong>the biggest barriers</strong> for students is not 
               ability or motivation, but <strong>awareness</strong>. My goal is simple: to <strong>close this awareness gap</strong>. 
               I'm building a decentralized platform that <strong>brings all</strong> scholarships, programs, events, fellowships and funding 
-              opportunities into <strong>one place</strong>. Students in <strong>Germany and EU</strong> won't 
+              opportunities into <strong>one place</strong>. Students in<strong> EU</strong> won't 
               have to rely on luck, chance, or connections. <strong>Just sign to</strong> the 
               waitlist, follow, and stay updated.
             </p>
